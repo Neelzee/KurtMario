@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/thomasbordal/IdeaProjects/Thomas.Bordal/kurt-mario/src/main</OriginalElement>
+  <nodes>
+    <node x="220.0" y="168.0">object.actor.monster.IMonster</node>
+    <node x="224.25" y="408.0">helper.GameObjectSpawner</node>
+    <node x="510.25" y="90.0">object.GameObject</node>
+    <node x="489.25" y="168.0">object.actor.Actor</node>
+    <node x="402.125" y="12.0">object.IGameObject</node>
+    <node x="419.5" y="327.0">object.actor.monster.Monster</node>
+    <node x="569.25" y="567.0">main.Main</node>
+    <node x="224.25" y="447.75">game.KurtMarioGame</node>
+    <node x="224.25" y="485.875">helper.Constants</node>
+    <node x="529.25" y="527.25">helper.Functions</node>
+    <node x="224.25" y="562.125">object.actor.monster.MonsterAI</node>
+    <node x="427.5" y="246.0">object.actor.player.Player</node>
+    <node x="519.25" y="487.5">screens.PlayScreen</node>
+    <node x="224.25" y="524.0">helper.Direction</node>
+    <node x="358.125" y="90.0">object.actor.IActor</node>
+    <node x="359.0" y="168.0">object.actor.player.IPlayer</node>
+    <node x="601.25" y="168.0">object.item.Item</node>
+    <node x="482.25" y="408.0">helper.B2WorldCreator</node>
+    <node x="509.25" y="447.75">screens.MenuScreen</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="object.actor.player.Player" target="object.actor.Actor" relationship="GENERALIZATION">
+      <point x="24.5" y="-14.0" />
+      <point x="501.0" y="226.0" />
+      <point x="535.25" y="226.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="object.actor.Actor" target="object.GameObject" relationship="GENERALIZATION">
+      <point x="23.0" y="-14.0" />
+      <point x="558.25" y="148.0" />
+      <point x="582.75" y="148.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="object.actor.Actor" target="object.actor.IActor" relationship="REALIZATION">
+      <point x="-23.0" y="-14.0" />
+      <point x="512.25" y="148.0" />
+      <point x="430.875" y="148.0" />
+      <point x="24.25" y="14.0" />
+    </edge>
+    <edge source="object.actor.player.IPlayer" target="object.actor.IActor" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="410.5" y="148.0" />
+      <point x="382.375" y="148.0" />
+      <point x="-24.25" y="14.0" />
+    </edge>
+    <edge source="object.actor.monster.Monster" target="object.actor.Actor" relationship="GENERALIZATION">
+      <point x="28.5" y="-14.0" />
+      <point x="505.0" y="341.0" />
+      <point x="569.25" y="341.0" />
+      <point x="569.25" y="226.0" />
+      <point x="535.25" y="226.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="object.actor.monster.Monster" target="object.actor.monster.IMonster" relationship="REALIZATION">
+      <point x="-28.5" y="-14.0" />
+      <point x="448.0" y="341.0" />
+      <point x="279.5" y="341.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="object.actor.IActor" target="object.IGameObject" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="406.625" y="65.0" />
+      <point x="439.625" y="65.0" />
+      <point x="-37.5" y="14.0" />
+    </edge>
+    <edge source="object.item.Item" target="object.GameObject" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="643.25" y="148.0" />
+      <point x="582.75" y="148.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="object.GameObject" target="object.IGameObject" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="582.75" y="65.0" />
+      <point x="514.625" y="65.0" />
+      <point x="37.5" y="14.0" />
+    </edge>
+    <edge source="object.actor.player.Player" target="object.actor.player.IPlayer" relationship="REALIZATION">
+      <point x="-24.5" y="-14.0" />
+      <point x="452.0" y="216.0" />
+      <point x="410.5" y="216.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="object.actor.monster.IMonster" target="object.actor.IActor" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="279.5" y="148.0" />
+      <point x="382.375" y="148.0" />
+      <point x="-24.25" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="502.0" y="322.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

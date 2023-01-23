@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="60" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="55">
+ <tileset firstgid="1" source="terrain_atlas.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="60" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,725,0,0,0,0,0,0,0,983,0,0,0,0,0,0,0,728,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,725,0,0,0,0,0,725,0,983,0,0,0,0,0,983,0,728,0,0,0,0,0,728,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,386,0,0,0,0,386,386,386,386,386,
+418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,418,0,0,0,0,418,418,418,418,418,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,481,482,484,485,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,513,514,516,517,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,551,0,0,0,0,551,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,583,551,551,551,551,583,551,551,551,551,551,551,551,273,273,273,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,551,
+583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583,583
+</data>
+ </layer>
+ <objectgroup id="2" name="SPAWNS">
+  <object id="6" x="32" y="832" width="32" height="32">
+   <properties>
+    <property name="PLAYER" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="14" x="416" y="832" width="32" height="32">
+   <properties>
+    <property name="AI" value="NONE"/>
+    <property name="MONSTER" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="15" x="640" y="864" width="32" height="32">
+   <properties>
+    <property name="AI" value="STUDENT"/>
+    <property name="MONSTER" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="16" x="832" y="864" width="32" height="32">
+   <properties>
+    <property name="AI" value="DUMB"/>
+    <property name="MONSTER" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="21" x="1632" y="864" width="128" height="32">
+   <properties>
+    <property name="AI" value="YX"/>
+    <property name="PID" type="int" value="0"/>
+    <property name="PLATFORM" type="bool" value="false"/>
+    <property name="SPEED" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="22" x="1632" y="864" width="128" height="32">
+   <properties>
+    <property name="PID" type="int" value="0"/>
+    <property name="POINT" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="23" x="1632" y="576" width="128" height="32">
+   <properties>
+    <property name="PID" type="int" value="0"/>
+    <property name="POINT" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="31" x="1344" y="478" width="32" height="32">
+   <properties>
+    <property name="AI" value="XY"/>
+    <property name="PID" type="int" value="1"/>
+    <property name="PLATFORM" type="bool" value="false"/>
+    <property name="SPEED" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="32" x="1344" y="478" width="32" height="32">
+   <properties>
+    <property name="AI" value="XY"/>
+    <property name="PID" type="int" value="1"/>
+    <property name="POINT" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="34" x="1248" y="286" width="32" height="32">
+   <properties>
+    <property name="PID" type="int" value="1"/>
+    <property name="POINT" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="35" x="1152" y="478" width="32" height="32">
+   <properties>
+    <property name="PID" type="int" value="1"/>
+    <property name="POINT" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="36" x="1088" y="478" width="32" height="32">
+   <properties>
+    <property name="AI" value="YX"/>
+    <property name="PID" type="int" value="2"/>
+    <property name="PLATFORM" type="bool" value="false"/>
+    <property name="SPEED" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="37" x="1088" y="478" width="32" height="32">
+   <properties>
+    <property name="PID" type="int" value="2"/>
+    <property name="POINT" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="39" x="992" y="286" width="32" height="32">
+   <properties>
+    <property name="PID" type="int" value="2"/>
+    <property name="POINT" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="40" x="896" y="478" width="32" height="32">
+   <properties>
+    <property name="PID" type="int" value="2"/>
+    <property name="POINT" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="41" x="832" y="478" width="32" height="32">
+   <properties>
+    <property name="AI" value="DIRECT"/>
+    <property name="PID" type="int" value="3"/>
+    <property name="PLATFORM" type="bool" value="false"/>
+    <property name="SPEED" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="42" x="832" y="478" width="32" height="32">
+   <properties>
+    <property name="PID" type="int" value="3"/>
+    <property name="POINT" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="44" x="736" y="286" width="32" height="32">
+   <properties>
+    <property name="AI" value="DIRECT"/>
+    <property name="PID" type="int" value="3"/>
+    <property name="POINT" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="45" x="640" y="478" width="32" height="32">
+   <properties>
+    <property name="AI" value="DIRECT"/>
+    <property name="PID" type="int" value="3"/>
+    <property name="POINT" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="46" x="448" y="544" width="64" height="32">
+   <properties>
+    <property name="ITEM" type="int" value="1"/>
+    <property name="SYMBOL" value="D"/>
+   </properties>
+  </object>
+  <object id="47" x="160" y="544" width="64" height="32">
+   <properties>
+    <property name="EFFECT" value="MAX_HEALTH_INCREASE"/>
+    <property name="ITEM" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="48" x="352" y="544" width="64" height="32">
+   <properties>
+    <property name="EFFECT" value="DAMAGE"/>
+    <property name="EFFECT_VALUE" type="int" value="40"/>
+    <property name="ITEM" type="int" value="1"/>
+    <property name="SYMBOL" value="d"/>
+   </properties>
+  </object>
+  <object id="49" x="256" y="544" width="64" height="32">
+   <properties>
+    <property name="EFFECT" value="HEALING"/>
+    <property name="ITEM" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="50" x="96" y="544" width="32" height="32">
+   <properties>
+    <property name="EFFECT" value="REGENERATION"/>
+    <property name="ITEM" type="int" value="1"/>
+    <property name="TIME" type="int" value="120"/>
+   </properties>
+  </object>
+  <object id="52" x="32" y="544" width="32" height="32">
+   <properties>
+    <property name="EFFECT" value="POISON"/>
+    <property name="ITEM" type="int" value="1"/>
+    <property name="TIME" type="int" value="120"/>
+   </properties>
+  </object>
+  <object id="54" x="544" y="544" width="64" height="32">
+   <properties>
+    <property name="ITEM" type="int" value="1"/>
+    <property name="SYMBOL" value="D"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="WALL">
+  <object id="1" x="0" y="640" height="320"/>
+  <object id="3" x="1920" y="640" height="320"/>
+  <object id="8" x="160" y="864" width="128" height="32">
+   <properties>
+    <property name="BLOCKED" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="9" x="167.25" y="802.25" width="111.5" height="61.75"/>
+  <object id="17" x="576" y="864" width="32" height="32"/>
+  <object id="18" x="736" y="864" width="32" height="32"/>
+  <object id="24" x="1760" y="576" width="160" height="64"/>
+  <object id="25" x="0" y="576" width="1632" height="64"/>
+  <object id="28" x="1088" y="896" width="832" height="64"/>
+  <object id="29" x="992" y="928" width="96" height="32"/>
+  <object id="30" x="0" y="896" width="992" height="64"/>
+ </objectgroup>
+ <objectgroup id="4" name="HAZARD" visible="0">
+  <object id="19" x="992" y="905.5" width="96" height="22.5">
+   <properties>
+    <property name="LAVA" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
